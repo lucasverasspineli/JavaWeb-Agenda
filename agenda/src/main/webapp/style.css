@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap')
+	;
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+h1 {
+	color: #66bbff;
+}
+
+.Botao1 {
+	text-decoration: none;
+	background-color: #66bbff;
+	/*ordem de espaçamento 1° cima -> 2° esquerda -> 3° baixo -> 4° direita*/
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weigth: 700;
+	border-radius: 5px;
+	/* Removendo a sombra do Botão */
+	border: 0;
+	/*Colocando a Maozinha quando o mouse está no botão Adicionar */
+	cursor: pointer;
+}
+
+.Botao2 {
+	
+		text-decoration: none;
+		background-color: #ff0000;
+		padding: 5px 10px 5px 10px;
+		color: #fff;
+		font-size: 1.2em;
+		font-weight: 700;
+		border-radius: 5px;
+		border: 0;
+		 
+		
+}
+
+.Caixa1 {
+	/*Largura da Caixa de Texto*/
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	/*A borda vai ficar com a cor que está usando no projeto, a cor azul*/
+	border: 1px solid #66bbff;
+	/*A borda irá ser aredondada*/
+	border-radius: 5px;
+}
+
+.Caixa2 {
+	padding: 5px;
+	margin-bottom: 10px;
+	/*A borda vai ficar com a cor que está usando no projeto, a cor azul*/
+	border: 1px solid #66bbff;
+	/*A borda irá ser aredondada*/
+	border-radius: 5px;
+}
+/*formatando  */
+#Caixa3 {
+	padding: 5px;
+	margin-bottom: 10px;
+	/*A borda vai ficar com a cor que está usando no projeto, a cor azul*/
+	border: 1px solid #ff0000;
+	/*A borda irá ser aredondada*/
+	border-radius: 5px;
+}
+
+/*Criando um estilo para a tabela do jsp*/
+#tab {
+	margin-top: 30px;
+	/* Criar as Bordas tudo alinhada, todas juntas umas com as outras,
+	sem espaçamento*/
+	border-collapse: collapse;
+}
+/*Para criar estilos de uma tabela por Id, só precisa informar o Id da tabela
+no começo quando cria ele tipo: <table id="tab"> ...</table>
+para estilizar todo o corpo e cabeçalho de uma tabela, só precisa referenciar
+o Id da tabela com a tag que deseja, ex: se for criar um estilo de cabeçalho 
+então fará assim:
+identificador de Id's # no CSS + nome_ID = "tab" + nome_tag
+# tb th -> Aqui ele identifica todo o cabeçalho, pq cabeçalhos é com tag <th></th>
+*/
+#tab th {
+	border: 1px solid #ddd;
+	/*Espaçamento*/
+	padding: 10px;
+	/*Alinhamento a esquerda*/
+	text-align: left;
+	background-color: #66bbff;
+	/*Cor do texto do cabeçalho*/
+	color: #fff;
+}
+/*O corpo da tabela
+identificador de Id's # no CSS + nome_ID = "tab" + nome_tag
+# tb td -> Aqui ele identifica todo o corpo da tabela, pq é com tag <td></td>*/
+#tab td {
+	border: 1px solid #ddd;
+	/*Espaçamento*/
+	padding: 10px;
+}
+
+
+
