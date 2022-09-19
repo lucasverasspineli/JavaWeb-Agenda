@@ -9,5 +9,4 @@ This is a blank project for development with Java.
  * `mvn package`     compile and run tests
  * `cdk ls`          list all stacks in the app
 
-
 Enjoy!
